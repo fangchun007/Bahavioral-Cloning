@@ -4,11 +4,11 @@ This repository is temporary used for the following problem solving.
 
 ## Terminal
 
-Chuns-MacBook-Air:~ Chun$ cd '/Users/Chun/Desktop/WORK/Self-driving Car Engineer/Behavioral Cloning Project'
+    Chuns-MacBook-Air:~ Chun$ cd '/Users/Chun/Desktop/WORK/Self-driving Car Engineer/Behavioral Cloning Project'
 
-Chuns-MacBook-Air:Behavioral Cloning Project Chun$ source activate carnd-term1
+    Chuns-MacBook-Air:Behavioral Cloning Project Chun$ source activate carnd-term1
 
-(carnd-term1) Chuns-MacBook-Air:Behavioral Cloning Project Chun$ python drive.py model.h5
+    (carnd-term1) Chuns-MacBook-Air:Behavioral Cloning Project Chun$ python drive.py model.h5
 
     Using TensorFlow backend.
     Traceback (most recent call last):
