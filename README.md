@@ -23,13 +23,37 @@ This repository is temporary used for fixing the following problem.
 [drive.py](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/drive.py)
 
 ## Errors from Terminal
-1. whern I run "python drive.py model.h5"
 
-       (carnd-term1) Chuns-MacBook-Air:Behavioral Cloning Project Chun$ python drive.py model.h5
-       Using TensorFlow backend.
-       Traceback (most recent call last):
-         File "drive.py", line 85, in <module>    
-           model = model_from_json(jfile.read())
-         File "//anaconda/envs/carnd-term1/lib/python3.5/codecs.py", line 321, in decode
-           (result, consumed) = self._buffer_decode(data, self.errors, final)
-       UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+Whern I run "python drive.py model.h5"
+
+    (carnd-term1) Chuns-MacBook-Air:Behavioral Cloning Project Chun$ python drive.py model.h5
+    Using TensorFlow backend.
+    Traceback (most recent call last):
+      File "drive.py", line 85, in <module>    
+        model = model_from_json(jfile.read())
+      File "//anaconda/envs/carnd-term1/lib/python3.5/codecs.py", line 321, in decode
+        (result, consumed) = self._buffer_decode(data, self.errors, final)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+
+When I run "python drive.py model.json"
+
+    (carnd-term1) Chuns-MacBook-Air:Behavioral Cloning Project Chun$ python drive.py model.json
+    Using TensorFlow backend.
+    Traceback (most recent call last):
+      File "drive.py", line 85, in <module>
+        model = model_from_json(jfile.read())
+      File "//anaconda/envs/carnd-term1/lib/python3.5/site-packages/keras/models.py", line 210, in model_from_json
+        return layer_from_config(config, custom_objects=custom_objects)
+      File "//anaconda/envs/carnd-term1/lib/python3.5/site-packages/keras/utils/layer_utils.py", line 40, in layer_from_config
+        return layer_class.from_config(config['config'])
+      File "//anaconda/envs/carnd-term1/lib/python3.5/site-packages/keras/models.py", line 1080, in from_config
+        layer = get_or_create_layer(first_layer)
+      File "//anaconda/envs/carnd-term1/lib/python3.5/site-packages/keras/models.py", line 1064, in get_or_create_layer
+        layer = layer_from_config(layer_data)
+      File "//anaconda/envs/carnd-term1/lib/python3.5/site-packages/keras/utils/layer_utils.py", line 38, in layer_from_config
+        return layer_class.from_config(config['config'], custom_objects=custom_objects)
+      File "//anaconda/envs/carnd-term1/lib/python3.5/site-packages/keras/layers/core.py", line 637, in from_config
+        function = func_load(config['function'], globs=globs)
+      File "//anaconda/envs/carnd-term1/lib/python3.5/site-packages/keras/utils/generic_utils.py", line 59, in func_load
+        closure=closure)
+    TypeError: arg 4 (defaults) must be None or tuple
