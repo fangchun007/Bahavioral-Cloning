@@ -1,6 +1,9 @@
 # Bahavioral-Cloning
 
-This repository is temporary used for the following problem solving.
+This repository is temporary used for fixing the following problem.
+
+    (carnd-term1) Chuns-MacBook-Air:Behavioral Cloning Project Chun$ python --version
+    Python 3.5.2
 
 ## model.py and drive.py
 [model.ipynb](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/model.ipynb)
@@ -10,7 +13,9 @@ This repository is temporary used for the following problem solving.
 [drive.py](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/drive.py)
 
 
-## Terminal
+## Errors from Terminal
+
+1. run "python drive.py model.h5"
 
     Chuns-MacBook-Air:~ Chun$ cd '/Users/Chun/Desktop/WORK/Self-driving Car Engineer/Behavioral Cloning Project'
 
