@@ -3,11 +3,11 @@
 This repository is temporary used for the following problem solving.
 
 ## model.py and drive.py
+[model.ipynb](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/model.ipynb)
 
+[model.py](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/model.py)
 
-[model.py]()
-
-[drive.py]()
+[drive.py](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/drive.py)
 
 
 ## Terminal
