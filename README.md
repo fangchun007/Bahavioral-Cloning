@@ -23,15 +23,13 @@ This repository is temporary used for fixing the following problem.
 [drive.py](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/drive.py)
 
 ## Errors from Terminal
-
 1. whern I run "python drive.py model.h5"
 
-    (carnd-term1) Chuns-MacBook-Air:Behavioral Cloning Project Chun$ python drive.py model.h5
-
-    Using TensorFlow backend.
-    Traceback (most recent call last):
-      File "drive.py", line 85, in <module>    
-        model = model_from_json(jfile.read())
-      File "//anaconda/envs/carnd-term1/lib/python3.5/codecs.py", line 321, in decode
-        (result, consumed) = self._buffer_decode(data, self.errors, final)
-    UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+       (carnd-term1) Chuns-MacBook-Air:Behavioral Cloning Project Chun$ python drive.py model.h5
+       Using TensorFlow backend.
+       Traceback (most recent call last):
+         File "drive.py", line 85, in <module>    
+           model = model_from_json(jfile.read())
+         File "//anaconda/envs/carnd-term1/lib/python3.5/codecs.py", line 321, in decode
+           (result, consumed) = self._buffer_decode(data, self.errors, final)
+       UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
