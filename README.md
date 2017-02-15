@@ -57,3 +57,5 @@ When I run "python drive.py model.json"
       File "//anaconda/envs/carnd-term1/lib/python3.5/site-packages/keras/utils/generic_utils.py", line 59, in func_load
         closure=closure)
     TypeError: arg 4 (defaults) must be None or tuple
+
+I used Vim to check model.h5 and found this file do starts with "<89>HDF^M"
