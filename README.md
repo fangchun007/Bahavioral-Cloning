@@ -2,6 +2,8 @@
 
 This repository is temporary used for fixing the following problem.
 
+    Chuns-MacBook-Air:~ Chun$ cd '/Users/Chun/Desktop/WORK/Self-driving Car Engineer/Behavioral Cloning Project'
+    Chuns-MacBook-Air:Behavioral Cloning Project Chun$ source activate carnd-term1
     (carnd-term1) Chuns-MacBook-Air:Behavioral Cloning Project Chun$ python --version
     Python 3.5.2
 
@@ -17,9 +19,7 @@ This repository is temporary used for fixing the following problem.
 
 1. run "python drive.py model.h5"
 
-    Chuns-MacBook-Air:~ Chun$ cd '/Users/Chun/Desktop/WORK/Self-driving Car Engineer/Behavioral Cloning Project'
 
-    Chuns-MacBook-Air:Behavioral Cloning Project Chun$ source activate carnd-term1
 
     (carnd-term1) Chuns-MacBook-Air:Behavioral Cloning Project Chun$ python drive.py model.h5
 
