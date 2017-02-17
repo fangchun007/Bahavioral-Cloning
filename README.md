@@ -14,6 +14,7 @@ This repository is temporary used for fixing the following problem.
     Type "help", "copyright", "credits" or "license" for more information.
     >>> import sys
     >>> sys.getdefaultencoding()
+    >>> 'utf-8'
 
 ## My model.py and drive.py
 [model.ipynb](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/model.ipynb)
@@ -57,5 +58,11 @@ When I run "python drive.py model.json"
       File "//anaconda/envs/carnd-term1/lib/python3.5/site-packages/keras/utils/generic_utils.py", line 59, in func_load
         closure=closure)
     TypeError: arg 4 (defaults) must be None or tuple
-
+    
 I used Vim to check model.h5 and found this file do starts with "<89>HDF^M"
+    
+I download from [preritj's github](https://github.com/preritj/Behavioral-Cloning)  files including drive.py, model.h5, model.json, model.py, preprocess.py, setup.py, aiming to clone his result. Unfortunately, I failed on my environment.
+
+
+
+
