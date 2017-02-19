@@ -29,6 +29,10 @@ I hope to get your the following help. Thank you very much in advance!
 
 [drive.py](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/drive.py)
 
+[model.h5](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/model.h5)
+
+[model.json](https://raw.githubusercontent.com/fangchun007/Bahavioral-Cloning/master/model.json)
+
 ## Errors and What's I've tried before.
 
 1. Whern I run "python drive.py model.h5"
