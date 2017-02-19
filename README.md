@@ -1,12 +1,12 @@
 # Bahavioral Cloning Problem Fixing
 
-This repository is temporary used for fixing the following problem.
+This repository is used for DEBUGGING.
 
-I need your following help. Thank you very much inadvance!
+I hope to get your the following help. Thank you very much in advance!
 
-1. Can you replicate my errors? If the code can work in your computer, please let me know: chun.fang@hotmail.com
-2. Did I made some mistakes in my code? Please send me an email if you find any.
-3. If you have any comments please send me a message.
+1. After downloading drive.py, model.h5, model.json, can you replicate my errors by run "python drive.py model.h5"? If the code work well in your computer, please let me know: chun.fang@hotmail.com
+2. Did I made some mistakes in my code? Please send me an email if you find any. Many thanks!
+3. All comments are warmly welcomed.
 
 ## My Environments
 
