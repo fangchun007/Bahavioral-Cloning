@@ -75,6 +75,7 @@ I used Vim to check model.h5 and found this file do starts with "<89>HDF^M". The
         (result, consumed) = self._buffer_decode(data, self.errors, final)
     UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 38: invalid start byte
 
+I updata keras package, but same error.
     
 I download from [preritj's github](https://github.com/preritj/Behavioral-Cloning)  files including drive.py, model.h5, model.json, model.py, preprocess.py, setup.py, aiming to clone his result. Unfortunately, I failed on my environment.
 
