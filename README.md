@@ -22,7 +22,7 @@ I hope to get your the following help. Thank you very much in advance!
     >>> sys.getdefaultencoding()
     >>> 'utf-8'
 
-## My model.py and drive.py
+## Codes I've used
 [model.ipynb](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/model.ipynb)
 
 [model.py](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/model.py)
