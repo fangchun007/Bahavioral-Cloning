@@ -65,7 +65,16 @@ When I run "python drive.py model.json"
         closure=closure)
     TypeError: arg 4 (defaults) must be None or tuple
     
-I used Vim to check model.h5 and found this file do starts with "<89>HDF^M"
+I used Vim to check model.h5 and found this file do starts with "<89>HDF^M". Then I replaced letters "<89>HDF^M" with "%E2 %80 %B0". New errors come out:
+
+    Using TensorFlow backend.
+    Traceback (most recent call last):
+      File "drive.py", line 85, in <module>
+        model = model_from_json(jfile.read())
+      File "//anaconda/envs/carnd-term1/lib/python3.5/codecs.py", line 321, in decode
+        (result, consumed) = self._buffer_decode(data, self.errors, final)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 38: invalid start byte
+
     
 I download from [preritj's github](https://github.com/preritj/Behavioral-Cloning)  files including drive.py, model.h5, model.json, model.py, preprocess.py, setup.py, aiming to clone his result. Unfortunately, I failed on my environment.
 
