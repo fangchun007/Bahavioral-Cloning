@@ -31,7 +31,7 @@ I hope to get your the following help. Thank you very much in advance!
 
 ## Errors and What's I've tried before.
 
-Whern I run "python drive.py model.h5"
+1. Whern I run "python drive.py model.h5"
 
     (carnd-term1) Chuns-MacBook-Air:Behavioral Cloning Project Chun$ python drive.py model.h5
     Using TensorFlow backend.
@@ -42,7 +42,7 @@ Whern I run "python drive.py model.h5"
         (result, consumed) = self._buffer_decode(data, self.errors, final)
     UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
 
-When I run "python drive.py model.json"
+2. When I run "python drive.py model.json"
 
     (carnd-term1) Chuns-MacBook-Air:Behavioral Cloning Project Chun$ python drive.py model.json
     Using TensorFlow backend.
@@ -65,7 +65,7 @@ When I run "python drive.py model.json"
         closure=closure)
     TypeError: arg 4 (defaults) must be None or tuple
     
-I used Vim to check model.h5 and found this file do starts with "<89>HDF^M". Then I replaced letters "<89>HDF^M" with "%E2 %80 %B0". New errors come out:
+3. I used Vim to check model.h5 and found this file do starts with "<89>HDF^M". Then I replaced letters "<89>HDF^M" with "%E2 %80 %B0". New errors come out:
 
     Using TensorFlow backend.
     Traceback (most recent call last):
@@ -75,9 +75,9 @@ I used Vim to check model.h5 and found this file do starts with "<89>HDF^M". The
         (result, consumed) = self._buffer_decode(data, self.errors, final)
     UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 38: invalid start byte
 
-I updata keras package, but same error.
+4. I updata keras package, but same error.
     
-I download from [preritj's github](https://github.com/preritj/Behavioral-Cloning)  files including drive.py, model.h5, model.json, model.py, preprocess.py, setup.py, aiming to clone his result. Unfortunately, I failed on my environment.
+5. I download from [preritj's github](https://github.com/preritj/Behavioral-Cloning)  files including drive.py, model.h5, model.json, model.py, preprocess.py, setup.py, aiming to clone his result. Unfortunately, I failed on my environment.
 
 
 
