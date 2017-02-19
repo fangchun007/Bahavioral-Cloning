@@ -4,7 +4,9 @@ This repository is temporary used for fixing the following problem.
 
 I need your following help. Thank you inadvance!
 
-* 
+* Can you replicate my errors? If the code can work in your computer, please let me know: chun.fang@hotmail.com
+* Did I made some mistakes in my code? Please send me an email if you find any.
+* If you have any comments please send me a message.
 
 ## My Environments
 
