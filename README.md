@@ -29,7 +29,7 @@ I need your following help. Thank you very much inadvance!
 
 [drive.py](https://github.com/fangchun007/Bahavioral-Cloning/blob/master/drive.py)
 
-## Errors from Terminal
+## Errors and What's I've tried before.
 
 Whern I run "python drive.py model.h5"
 
@@ -77,7 +77,6 @@ I used Vim to check model.h5 and found this file do starts with "<89>HDF^M". The
 
     
 I download from [preritj's github](https://github.com/preritj/Behavioral-Cloning)  files including drive.py, model.h5, model.json, model.py, preprocess.py, setup.py, aiming to clone his result. Unfortunately, I failed on my environment.
-
 
 
 
