@@ -5,8 +5,9 @@ This repository is used for DEBUGGING.
 I hope to get your the following help. Thank you very much in advance!
 
 1. After downloading drive.py, model.h5, model.json, can you replicate my errors by run "python drive.py model.h5"? If the code work well in your computer, please let me know: chun.fang@hotmail.com. If a similar problem caused please also leave me a message. Thanks!
-2. If you have time to dive into my code (I've tried to simplify them to minimize your time), could you please send me an email if you find any erros I made. Many thanks!
-3. All comments are warmly welcomed.
+2. Can anybody share your code with me so that I can compare yours and mine? 
+3. If you have time to dive into my code (I've tried to simplify them to minimize your time), could you please send me an email if you find any erros I made. Many thanks!
+4. All comments are warmly welcomed.
 
 ## My Environments
 
