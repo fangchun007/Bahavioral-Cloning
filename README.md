@@ -1,6 +1,8 @@
 # Bahavioral Cloning Problem Fixing
 
-This repository is used for DEBUGGING.
+This repository is used for DEBUGGING. Problem solved!
+
+Please see [model_r2.ipynb]() for the entire code.
 
 ## Great News: problem solved!
 
