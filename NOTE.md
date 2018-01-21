@@ -6,9 +6,11 @@ Please refer to [model_r2.ipynb]() for the entire code.
 
 ## Great News: problem solved!
 
-The problem was caused by my using of the function tf.image.resize_images as a Lambda layer in the Keras model. Then the model.h5 cannot be loaded correctly. Unfortunately, the reason is still not known.
+The problem was caused by my using of the function tf.image.resize_images as a Lambda layer in the Keras model. Then the model.h5 cannot be loaded correctly. 
 
 https://github.com/fchollet/keras/issues/5298
+
+https://github.com/keras-team/keras/issues/5088
 
 ----------------------------------------------
 ----------------------------------------------
