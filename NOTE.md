@@ -1,19 +1,21 @@
 # Bahavioral Cloning Problem Fixing
 
-This repository is used for DEBUGGING. Problem solved!
+This note is used in DEBUGGING. Now the problem solved!
 
-Please see [model_r2.ipynb]() for the entire code.
+Please refer to [model_r2.ipynb]() for the entire code.
 
 ## Great News: problem solved!
 
-The problem was caused by my using of the function tf.image.resize_images as a Lambda layer in the Keras model. Then the model.h5 cannot be loaded correctly. However, I don't know the real reason.
+The problem was caused by my using of the function tf.image.resize_images as a Lambda layer in the Keras model. Then the model.h5 cannot be loaded correctly. Unfortunately, the reason is still not known.
 
 https://github.com/fchollet/keras/issues/5298
 
 ----------------------------------------------
 ----------------------------------------------
 
-I hope to get your the following help. Thank you very much in advance!
+## LOGs
+
+I hope to get the following help. Thank you very much in advance!
 
 1. After downloading drive.py, model.h5, model.json, can you replicate my errors by run "python drive.py model.h5"? If the code work well in your computer, please let me know: chun.fang@hotmail.com. If a similar problem caused please also leave me a message. Thanks!
 2. Can anybody share your code with me so that I can compare yours and mine? 
